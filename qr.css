@@ -1,0 +1,51 @@
+body { margin:1em; }
+img { border:none; }
+#form1 {
+	margin:0;
+	padding:0;
+	clear:both;
+	float:left;
+}
+.hr {
+	position:relative;
+	border-top:1px solid #ccc;
+	height:18px;	
+	margin-bottom: 1em;
+}
+.ar {
+	height:18px;
+	width:18px;
+	position:absolute;
+	left:50%;
+	margin-left:-9px;
+	top:-1px;
+	background: url('arrowb.png') center center no-repeat;
+}
+#out {
+	margin-top:2em;
+	clear:both;
+	text-align:center;
+}
+input {
+	margin:0;
+	margin-bottom:1em;
+	color:#333;
+	border:2px solid #ccc;
+	background:#eee;
+	-moz-border-radius: .4em;
+	-webkit-border-radius: .4em;
+	border-radius: .4em;	
+}
+	#copy {
+		position:fixed;
+		z-index:1000;
+		right:-6px;
+		top:-6px;
+		font-style:italic;
+		font-size:.85em;
+		padding:5px 8px;
+		background: #ccc;
+		border: 2px solid #3e5585;		
+		border-radius:.7em;
+		opacity: 0.8;		
+	}
